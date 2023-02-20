@@ -1,0 +1,7 @@
+<ul class="list-group">
+    <li *ngIf="game!=undefined || game!=null" class="list-group-item">
+        <p>Name : {{game.name | uppercase}}</p>
+        <p>Description : {{game.description | uppercase}}</p>
+        <p>Company : {{game.company | uppercase}}</p>
+    </li>
+</ul>

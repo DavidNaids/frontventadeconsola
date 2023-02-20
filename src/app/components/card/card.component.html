@@ -1,0 +1,15 @@
+<div class="card" style="width: 18rem;">
+    <img [src]="dataInput.img" class="card-img-top">  
+    <div class="card-body">
+        
+        <h5 class="card-title">{{dataInput.name}}</h5>    
+        <p class="card-text">{{dataInput.description}}</p>    
+         <p class="card-text">{{dataInput.company}}</p> 
+         <div style="margin-left: 25%;">
+            <button class="btn btn-primary" (click)="detailsGame(indexInput)">Details</button>
+           <a class="btn btn-primary" (click)="buyGame()">Buy</a>
+       
+         </div> 
+      
+    </div>    
+</div>
